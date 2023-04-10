@@ -1,0 +1,96 @@
+*{
+    margin:0;
+    padding:0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: silver;
+}
+html {
+    font-family:cursive;
+    font-weight:bold;
+}
+.main{
+    width:40vw;
+    height:50vh;
+    background-color:silver;
+    display:grid;
+    place-items:center;
+
+}
+.musiccontainer{
+    width:35rem;
+    height:45rem;
+    background-color:black;
+    border-radius: 2rem;
+    box-shadow: 0 1.2rem 3rem 0.5rem red;
+    padding:3rem;
+    text-align:center;
+}
+.imgcontain{
+    width:25rem;
+    height:25rem;
+    margin:auto;
+}
+img{
+    width:100%;
+    height:100%;
+    border-radius:50%;
+    box-shadow: 0 1.2rem 3rem 0.5rem red;
+}
+.controls{
+    width:20rem;
+    display:flex;
+    justify-content: space-between;
+    margin:auto;
+    color: white;
+    align-items: center;
+    margin-top:6rem;
+}
+.controls .playbutton{
+    height:5rem;
+    width:5rem;
+    border-radius:50%;
+    background-color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size:1.4rem;
+}
+.controls.fas{
+    font-size:3rem;
+    cursor:pointer;
+}
+.controls .fas{
+    color:blue;
+}
+.anima{
+    animation: rotate 3s linear infinite;
+}
+@keyframes rotate{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+#volume-container{
+    margin-top:3rem;
+    color:white;
+}
+#seekbar{
+    width:250px;
+    height:5px;
+    background-color: gray;
+    display:flex;
+    border-radius:50px;
+    margin-top:30px;
+    margin-left:100px;
+    cursor:pointer;
+}
+#fill{
+    height:5px;
+    background-color:royalblue;
+    border-radius: 20px;
+}

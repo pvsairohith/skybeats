@@ -1,0 +1,114 @@
+
+.carousel-item{
+
+}
+.span4 img {
+    margin-right: 10px;
+}
+.span4 .img-left {
+    float: left;
+}
+.span4 .img-right {
+    float: right;
+}
+
+.button-text{
+    color: white;
+}
+
+body{
+    background-color:black;
+}
+h2{
+    color:white;
+}
+p{
+    color:white;
+}
+.img-right{
+    padding-left:70px;
+}
+.button-center{
+   
+}
+.round{
+    border-radius: 10px;
+}
+.heading{
+    font-family:Arial, Helvetica, sans-serif;
+    color:purple;
+}
+.navbar-nav{
+    margin-left: auto;
+
+}
+.carousel-item{
+    height:40rem;
+    background:rgb(44, 36, 36);
+    color:white;
+}
+.sliding{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right:0;
+        padding:50px;
+  
+}
+.imagesize{
+  width:356px;
+  height:250px
+}
+.f1{
+    color:yellow;
+  font-family:cursive;
+  font-weight: bold;
+}
+
+.f2{
+    color:skyblue;
+    font-family:cursive;
+    font-weight: bold;
+}
+.f3{
+    color:pink;
+    font-family:cursive;
+    font-weight: bold;
+}
+.f4{
+    color:green;
+    font-family:cursive;
+    font-weight: bold;
+}
+
+.f5{
+    color:red;
+    font-family:cursive;
+    font-weight: bold;
+}
+
+.f6{
+    color:orangered;
+    font-family:cursive;
+    font-weight: bold;
+}
+
+
+
+
+roundimage{
+    width:100px;
+    border:5px solid rgb(121, 14, 32);
+    border-radius:50%;
+    box-shadow:5px 4px red;
+}
+
+
+
+
+
+
+
+
+
+

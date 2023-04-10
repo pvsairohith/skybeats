@@ -1,0 +1,44 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.navbar-nav{
+    margin-left: auto;
+
+}
+body{
+    background-color: darkgray;
+}
+img{
+    vertical-align: middle;
+    border-style: none;
+    height: 650px;
+    width: 510px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius:30px
+}
+.row{
+    background-color: white;
+    border-radius:30px;
+}
+.king{
+    padding-left: 65px;
+}
+.form1{
+    padding-left: 20%;
+}
+.bt{
+    background-color: blue;
+    height:50px;
+    width:100%;
+    border-radius: 10px;
+    color:white;
+    font-weight: bold;
+}
+.bt:active{
+    color:red;
+}

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin-Page</title>
+    <link rel="stylesheet" href="admin.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+<body>
+    <nav id="navbar-example2" class="navbar navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="#">SKYBEATS-ADMIN PANEL</a>
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a class="nav-link" href="#fat">ADD ALBUM</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#mdo">ADD SONG</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#one">UPDATE SONG</a>
+              <a class="dropdown-item" href="#two">EMAIL</a>
+              <div role="separator" class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#three">NOTICES</a>
+            </div>
+          </li>
+          <li class="p-1">
+            <button type="button" class="btn btn-primary">Logout</button>
+          </li>
+        </ul>
+      </nav>
+      <div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
+        <h4 id="fat">ADD ALBUM</h4>
+        <div>
+            <section class="container">
+                <div class="col-lg-6 px-5 pt-5 mx-4">
+                    <h1 class="font-weight-bold text-center pb-2 king">ALBUM BASIC INFO</h1>
+                    <form class="form1">
+                        <div class="form-row">
+                            <div class="col-lg-10">
+                                <label for="title" class="font-weight-bold">Album title</label>
+                                <input type="text" id="title" placeholder="enter title" class="form-control my-3 p-4">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-lg-10">
+                                <label for="artist" class="font-weight-bold">Artist</label>
+                                <input type="text" id="artist" placeholder="enter artist" class="form-control my-3 p-4">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-lg-13">
+                                <label for="album length" class="font-weight-bold">Album length</label>
+                                <input type="text" placeholder="album length" class="form-control my-4 p-3">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label font-weight-bold" for="field-1">Cover image</label>
+                            <div class="controls">
+                                <input type="file" class="form-control my-4 " id="field-5">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-lg-13">
+                                <label for="description" class="font-weight-bold">Brief</label>
+                                <input type="text" placeholder="description" class="form-control my-4 p-10">
+                            </div>
+                        </div>
+                        <div class="form-row mt-4">
+                            <div class="col-lg-10">
+                                <button type="button" class="btn btn-primary">save</button><br>
+                            </div>
+                            <div class="mx-6 mb-4">
+                                <button type="button" class="btn btn-warning">cancel</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+        </section>
+        </div>
+        <h4 id="mdo" style="font-weight: bold;">ADD SONG</h4>
+        <div>
+            <section class="container">
+                <div class="col-lg-6 px-5 pt-5 mx-4">
+                    <h1 class="font-weight-bold text-center pb-2 king">songs basic info</h1>
+                    <form class="form1">
+                        <div class="form-row">
+                            <div class="col-lg-10">
+                                <label for="title" class="font-weight-bold">song title</label>
+                                <input type="text" id="title" placeholder="enter title" class="form-control my-3 p-4">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-lg-10">
+                                <label for="artist" class="font-weight-bold">Artist</label>
+                                <input type="text" id="artist" placeholder="enter artist" class="form-control my-3 p-4">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-lg-13">
+                                <label for="album length" class="font-weight-bold">song length</label>
+                                <input type="text" placeholder="album length" class="form-control my-4 p-3">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label font-weight-bold" for="field-1">song upload</label>
+                            <div class="controls">
+                                <input type="file" class="form-control my-4 " id="field-5">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-lg-13">
+                                <label for="description" class="font-weight-bold">Brief</label>
+                                <input type="text" placeholder="description" class="form-control my-4 p-10">
+                            </div>
+                        </div>
+                        <div class="form-row mt-4">
+                            <div class="col-lg-10">
+                                <button type="button" class="btn btn-primary">save</button><br>
+                            </div>
+                            <div class="mx-6 mb-4">
+                                <button type="button" class="btn btn-warning">cancel</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+        </section>
+        </div>
+    </div>
+    <div id="one">
+        <h1>update song</h1>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+    <script>
+        $(function () {
+            $(document).scroll(function () {
+                var $nav = $("#mainNavbar");
+                $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+            });
+        });
+    </script>
+</body>
+</html>
